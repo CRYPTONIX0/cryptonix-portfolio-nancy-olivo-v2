@@ -1,0 +1,26 @@
+# Configuración de la compilación del proyecto en Netlify
+[build]
+  # Directorio donde se encuentran las funciones (funciones Lambda)
+  functions = "netlify/functions"  # Este es el directorio donde Netlify buscará las funciones serverless.
+
+  # Directorio donde se publicarán los archivos estáticos después de la compilación
+  publish = "dist"  # Este es el directorio de salida para los archivos estáticos generados después de ejecutar `npm run build`.
+
+  # Comando para ejecutar el proceso de construcción del proyecto
+  command = "npm run build"  # Comando que se ejecutará para compilar el proyecto antes de la publicación.
+
+# Redirecciones personalizadas
+[[redirects]]
+  # Ruta que se redirige
+  from = "/api/*"  # Todas las solicitudes que comienzan con "/api/" serán redirigidas.
+
+  # Nueva ubicación hacia la cual se redirigen las solicitudes
+  to = "/.netlify/functions/:splat"  # Las solicitudes se redirigen a la ruta de las funciones de Netlify. ":splat" captura el resto de la ruta después de "/api/".
+
+  # Estado HTTP de la redirección
+  status = 200  # La redirección devolverá un estado 200 (OK).
+
+# Firma futurista al final del archivo
+# ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+# 🔮 Hecho por: 𝘾𝙍𝙔𝙋𝙏𝙊𝙉𝙄𝙓𝘿𝙀𝙑 ░ "Innovación desde el código"
+# ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
