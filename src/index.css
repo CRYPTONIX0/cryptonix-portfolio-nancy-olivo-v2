@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+/* Importación de Tailwind CSS y base */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definición de variables globales para el tema y estilos comunes */
+:root {
+  /* Gradiente de color negro utilizado en varios elementos */
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffc0e4 -278.56%, /* Color de inicio del gradiente */
+    #000000 -78.47%, /* Color intermedio del gradiente */
+    #11101d 91.61% /* Color final del gradiente */
+  );
+
+  /* Sombra de las tarjetas */
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+
+  /* Colores para las barras de desplazamiento */
+  --scrollbar-primary: #00040f;
+  --scrollbar-secondary: #ffc0e4;
+}
+
+/* Comportamiento de desplazamiento suave en toda la página */
+* {
+  scroll-behavior: smooth;
+}
+
+/* Estilos específicos para Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-secondary) var(--scrollbar-primary);
+}
+
+/* Estilos específicos para Chrome, Edge y Safari */
+*::-webkit-scrollbar {
+  width: 15px; /* Define el grosor de la barra de desplazamiento */
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--scrollbar-primary); /* Fondo de la barra de desplazamiento */
+  border-radius: 0px; /* Sin redondear las esquinas */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-secondary); /* Color del pulgar de la barra */
+  border-radius: 14px; /* Bordes redondeados del pulgar */
+  border: 3px solid var(--scrollbar-primary); /* Borde del pulgar */
+}
+
+/* Clase para texto con gradiente */
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #ffc0e4 0.89%, 
+    #ffb3d9 17.23%, 
+    #ffd6ec 42.04%, 
+    #ffc0e4  55.12%, 
+    #ff6ec7  71.54%, 
+    #ff94d3  100%
+  );
+  -webkit-background-clip: text; /* Clip para el fondo solo en el texto */
+  -webkit-text-fill-color: transparent; /* Hace que el texto no tenga color, mostrando solo el gradiente */
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+/* Efecto al pasar el mouse sobre el texto con gradiente */
+.text-gradient:hover {
+  -webkit-text-fill-color: #ffffff; /* El texto se pone blanco cuando se hace hover */
+}
+
+/* Definición de varios fondos con gradientes */
+.bg-blue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #ffc0e4 -43.27%, 
+    #ffb3d9 -21.24%, 
+    #ffd6ec 12.19%, 
+    #ffc0e4 29.82%, 
+    #ff6ec7 51.94%, 
+    #ff94d3 90.29%
+  );
+}
+
+.bg-black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%, 
+    #6d6d6d -78.47%, 
+    #11101d 91.61%
+  );
+}
+
+.bg-black-gradient-2 {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%, 
+    #6d6d6d -78.47%, 
+    #11101d 91.61%
+  );
+}
+
+.bg-gray-gradient {
+  background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%, 
+    #14101d 95.11%
+  );
+}
+
+.bg-discount-gradient {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+
+/* Estilo de sombra para contenedores generales */
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+/* Animación para el deslizado de la barra lateral */
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/* Animación de deslizamiento hacia abajo de la barra lateral */
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+/* Efecto al pasar el mouse sobre las tarjetas de características */
+.feature-card:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+/* Ajuste en el margen derecho para la última tarjeta de comentarios */
+.feedback-container .feedback-card:last-child {
+  margin-right: 0px;
+}
+
+/* Estilo de fondo transparente para las tarjetas de comentarios */
+.feedback-card {
+  background: transparent;
+}
+
+/* Efecto al pasar el mouse sobre las tarjetas de comentarios */
+.feedback-card:hover {
+  background: var(--black-gradient);
+}
+
+/* Fondo desenfocado azul */
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+/* Fondo desenfocado rosa */
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+/* Fondo blanco con desenfoque */
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+
+/* Estilos para los tooltips (mensajes emergentes) */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden; /* El tooltip está oculto por defecto */
+  width: 100px; /* Ancho del tooltip */
+  background-color: rgb(10, 10, 10); /* Color de fondo del tooltip */
+  color: #fff; /* Color del texto dentro del tooltip */
+  font-size: 14px; /* Tamaño de la fuente del tooltip */
+  text-align: center; /* Centrado del texto */
+  border-radius: 6px; /* Bordes redondeados */
+  padding: 5px 0; /* Espaciado dentro del tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 150%; /* Posiciona el tooltip debajo del elemento */
+  left: 50%;
+  margin-left: -50px; /* Alineación centrada */
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent; /* Estilo de la flecha del tooltip */
+}
+
+/* Visibilidad del tooltip al pasar el mouse */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* Estilos para el título del blog con trunca de texto */
+.blog-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 32px; /* Altura de la línea */
+  max-height: 64px; /* Altura máxima */
+  -webkit-line-clamp: 2; /* Limita el texto a 2 líneas */
+  -webkit-box-orient: vertical;
+}
+
+/* Estilos personalizados para la barra de navegación */
+@layer utilities{
+  .nav-styles{
+    @apply w-full fixed top-0 left-0 flex justify-between items-center bg-opacity-80 shadow-lg z-50 backdrop-blur-md border-b border-black/10;
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "nombre": "Nancy Aidee Olivo Gutiérrez",  // Nombre completo de la profesional
+  "titulo": "Médico Psiquiatra y Psiquiatra Infantil",  // Título profesional
+  "especialidades": [  // Lista de especialidades
+    "Psiquiatría Infantil",  // Especialidad en psiquiatría infantil
+    "Psiquiatría de la Adolescencia",  // Especialidad en psiquiatría de la adolescencia
+    "Tratamiento de Trastornos Mentales Graves",  // Tratamiento de trastornos mentales graves
+    "Psicoterapia",  // Terapia psicológica
+    "Farmacoterapia"  // Uso de medicamentos en tratamientos psiquiátricos
+  ],
+  "experiencia": 26,  // Años de experiencia profesional
+  "fechaNacimiento": "1971-05-12",  // Fecha de nacimiento
+  "nacionalidad": "Mexicana",  // Nacionalidad
+  "ubicacion": {  // Ubicación geográfica
+    "ciudad": "Cuautitlán Izcalli",  // Ciudad
+    "estado": "Estado de México",  // Estado
+    "pais": "México"  // País
+  },
+  "contacto": {  // Información de contacto
+    "telefono": ["5535536078", "5516765348"],  // Teléfonos de contacto
+    "email": "nancyaidee91@gmail.com",  // Correo electrónico
+    "paginaWeb": "https://www.nancyolivogutierrez.com",  // Página web
+    "redesSociales": {  // Enlaces a redes sociales
+      "linkedin": "https://www.linkedin.com/in/nancyolivogutierrez",  // Perfil de LinkedIn
+      "instagram": "https://www.instagram.com/nancyolivogutierrez",  // Perfil de Instagram
+      "twitter": "https://twitter.com/nancyolivo"  // Perfil de Twitter
+    }
+  },
+  "formacionAcademica": [  // Información sobre la formación académica
+    {
+      "titulo": "Especialización en Psiquiatría Infantil y de la Adolescencia",  // Título de la especialización
+      "institucion": "Hospital Psiquiátrico Infantil Dr. Juan N. Navarro",  // Institución que otorgó la especialización
+      "anoInicio": 2001,  // Año de inicio
+      "anoFin": 2003,  // Año de finalización
+      "descripcion": "Curso de especialización con un enfoque integral en el diagnóstico y tratamiento de trastornos psiquiátricos en niños y adolescentes."  // Descripción de la especialización
+    },
+    {
+      "titulo": "Especialización en Psiquiatría",  // Título de la especialización
+      "institucion": "Hospital Psiquiátrico Fray Bernardino Álvarez",  // Institución que otorgó la especialización
+      "anoInicio": 1998,  // Año de inicio
+      "anoFin": 2001,  // Año de finalización
+      "descripcion": "Curso de especialización en el tratamiento de trastornos psiquiátricos adultos, con un enfoque en la farmacoterapia y psicoterapia."  // Descripción de la especialización
+    },
+    {
+      "titulo": "Licenciatura en Medicina Cirujano",  // Título de la licenciatura
+      "institucion": "Universidad Nacional Autónoma de México (UNAM)",  // Institución que otorgó la licenciatura
+      "anoInicio": 1990,  // Año de inicio
+      "anoFin": 1996,  // Año de finalización
+      "descripcion": "Titulación en medicina general, con un enfoque en la atención primaria de salud y la prevención de enfermedades."  // Descripción de la licenciatura
+    }
+  ],
+  "habilidades": {  // Habilidades profesionales
+    "tecnicas": [  // Habilidades técnicas
+      "Diagnóstico de Trastornos Psiquiátricos",  // Diagnóstico de trastornos psiquiátricos
+      "Psicoterapia Cognitivo-Conductual",  // Psicoterapia cognitivo-conductual
+      "Psicoterapia Familiar",  // Psicoterapia familiar
+      "Farmacoterapia (Psicofármacos)",  // Uso de psicofármacos
+      "Evaluación Psicológica y Psicodiagnóstica",  // Evaluación psicológica
+      "Manejo de Trastornos de Conducta"  // Manejo de trastornos de conducta
+    ],
+    "blandas": [  // Habilidades blandas
+      "Comunicación Empática con Pacientes y Familia",  // Comunicación empática con pacientes y sus familias
+      "Toma de Decisiones en Situaciones Estresantes",  // Capacidad de tomar decisiones en situaciones de estrés
+      "Trabajo en Equipo Multidisciplinario",  // Trabajo en equipo con profesionales de diversas disciplinas
+      "Habilidades de Resolución de Conflictos",  // Habilidad para resolver conflictos
+      "Adaptabilidad y Flexibilidad"  // Adaptabilidad y flexibilidad en el entorno laboral
+    ]
+  },
+  "servicios": [  // Servicios ofrecidos por la profesional
+    "Consulta médica psiquiátrica para niños, adolescentes y adultos",  // Consulta médica psiquiátrica
+    "Diagnóstico y tratamiento de trastornos emocionales y conductuales",  // Diagnóstico y tratamiento de trastornos emocionales y conductuales
+    "Evaluación psicodiagnóstica integral",  // Evaluación psicodiagnóstica
+    "Psicoterapia individual y familiar",  // Psicoterapia individual y familiar
+    "Manejo farmacológico de trastornos mentales",  // Manejo de trastornos mentales con medicación
+    "Peritajes psiquiátricos legales (en ámbitos familiar, civil y penal)",  // Peritajes legales en casos psiquiátricos
+    "Terapia de apoyo para la gestión del estrés, la ansiedad y la depresión"  // Terapia para el manejo de estrés, ansiedad y depresión
+  ],
+  "experienciaLaboral": [  // Experiencia profesional
+    {
+      "cargo": "Médico Psiquiatra",  // Cargo ocupado
+      "institucion": "Consulta Privada",  // Institución donde trabaja
+      "anoInicio": 2000,  // Año de inicio
+      "anoFin": "Presente",  // Año actual
+      "descripcion": "Atención psiquiátrica integral, diagnóstico y tratamiento de trastornos mentales en niños, adolescentes y adultos."  // Descripción del trabajo realizado
+    },
+    {
+      "cargo": "Perito Psiquiatra",  // Cargo ocupado
+      "institucion": "Fiscalía General de Justicia del Estado de México",  // Institución donde trabaja
+      "anoInicio": 2012,  // Año de inicio
+      "anoFin": "Presente",  // Año actual
+      "descripcion": "Realización de peritajes psiquiátricos en casos judiciales relacionados con salud mental, en los ámbitos civil, familiar y penal."  // Descripción del trabajo realizado
+    },
+    {
+      "cargo": "Médico Adscrito",  // Cargo ocupado
+      "institucion": "Hospital Psiquiátrico Infantil Dr. Juan N. Navarro",  // Institución donde trabajó
+      "anoInicio": 2003,  // Año de inicio
+      "anoFin": 2006,  // Año de finalización
+      "descripcion": "Atención de urgencias psiquiátricas y tratamientos psiquiátricos para niños y adolescentes."  // Descripción del trabajo realizado
+    },
+    {
+      "cargo": "Jefe Médico del Servicio de Psiquiatría Infantil y de la Adolescencia",  // Cargo ocupado
+      "institucion": "Clínica de Ortolalia",  // Institución donde trabajó
+      "anoInicio": 2003,  // Año de inicio
+      "anoFin": 2004,  // Año de finalización
+      "descripcion": "Manejo del servicio de psiquiatría infantil y de la adolescencia, especializado en trastornos de conducta y neurológicos."  // Descripción del trabajo realizado
+    }
+  ],
+  "actividadesProfesionalesAdicionales": [  // Actividades adicionales realizadas
+    {
+      "titulo": "Curso de Psiquiatría Forense",  // Título del curso
+      "institucion": "Instituto Nacional de Psiquiatría Dr. Ramón de la Fuente",  // Institución donde se realizó el curso
+      "ano": 2014  // Año en que se realizó el curso
+    },
+    {
+      "titulo": "Asistencia a Congreso Nacional de Psiquiatría Infantil y de la Adolescencia",  // Título del evento
+      "institucion": "Cancún, Quintana Roo",  // Lugar del evento
+      "ano": 2000  // Año del evento
+    },
+    {
+      "titulo": "Ponente en las Jornadas Médicas del Hospital Psiquiátrico Infantil Dr. Juan N. Navarro",  // Título del evento
+      "institucion": "Toluca, Estado de México",  // Lugar del evento
+      "ano": 2003  // Año del evento
+    }
+  ],
+  "publicaciones": [  // Publicaciones realizadas
+    {
+      "titulo": "Psicopatología en los padres con hijos con diagnóstico de maltrato físico atendidos en el Instituto Nacional de Pediatría",  // Título de la publicación
+      "revista": "Revista de Salud Mental, UNAM",  // Revista en la que se publicó
+      "ano": 2000  // Año de publicación
+    },
+    {
+      "titulo": "Técnicas de crianza en menores con trastornos disruptivos de la conducta",  // Título de la publicación
+      "revista": "Revista de Salud Mental, UNAM",  // Revista en la que se publicó
+      "ano": 2003  // Año de publicación
+    }
+  ],
+  "testimonios": [  // Testimonios de pacientes y colegas
+    {
+      "nombre": "Dr. Luis González",  // Nombre del testimonio
+      "cargo": "Médico Psiquiatra",  // Cargo del testificador
+      "comentario": "La Dra. Nancy Aidee Olivo es una profesional excepcional que ha ayudado a muchos de mis pacientes. Su habilidad para conectar con los jóvenes y las familias es impresionante."  // Testimonio
+    },
+    {
+      "nombre": "Marta Hernández",  // Nombre del testimonio
+      "cargo": "Madre de paciente",  // Cargo del testificador
+      "comentario": "Gracias a la Dra. Olivo, mi hijo ha mejorado enormemente en su tratamiento. Su enfoque humano y profesional ha sido clave en su proceso de recuperación."  // Testimonio
+    }
+  ],
+  "proyectos": [  // Proyectos realizados
+    {
+      "nombre": "Programa de Apoyo Psicosocial para Familias",  // Nombre del proyecto
+      "descripcion": "Un programa diseñado para brindar apoyo emocional y psiquiátrico a las familias de niños y adolescentes con trastornos mentales graves, enfocado en la integración familiar y la mejora del bienestar emocional."  // Descripción del proyecto
+    },
+    {
+      "nombre": "Investigación sobre Trastornos de Ansiedad en Adolescentes",  // Nombre del proyecto
+      "descripcion": "Investigación científica sobre la prevalencia y el tratamiento de los trastornos de ansiedad en adolescentes, con el objetivo de mejorar las terapias actuales."  // Descripción del proyecto
+    }
+  ],
+  "firma": "// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\n// 🔮 Hecho por: 𝘾𝙍𝙔𝙋𝙏𝙊𝙉𝙄𝙓𝘿𝙀𝙑 ░ \"Innovación desde el código\"\n// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░"
+}
